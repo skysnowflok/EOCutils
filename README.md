@@ -1,6 +1,4 @@
-# SQLiteAPI
-
-![Project Banner](resources\banner.png)
+<img src="resources/banner.png"></img>
 
 ## Descrição
 
