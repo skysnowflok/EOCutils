@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a2FDw+9QERU=",
+  "dgSpecHash": "QJOGJ0J9rY4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\edu\\Documents\\GitHub\\SQLiteAPI\\api.csproj",
+  "projectFilePath": "C:\\Users\\edu\\Documents\\GitHub\\SQLiteAPIc\\SQLiteAPI\\api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\edu\\.nuget\\packages\\microsoft.data.sqlite\\9.0.2\\microsoft.data.sqlite.9.0.2.nupkg.sha512",
     "C:\\Users\\edu\\.nuget\\packages\\microsoft.data.sqlite.core\\9.0.2\\microsoft.data.sqlite.core.9.0.2.nupkg.sha512",
@@ -12,12 +12,5 @@
     "C:\\Users\\edu\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.10\\sqlitepclraw.provider.e_sqlite3.2.1.10.nupkg.sha512",
     "C:\\Users\\edu\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
-    }
-  ]
+  "logs": []
 }

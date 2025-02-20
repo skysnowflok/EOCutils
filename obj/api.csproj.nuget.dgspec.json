@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\edu\\Documents\\GitHub\\SQLiteAPI\\api.csproj": {}
+    "C:\\Users\\edu\\Documents\\GitHub\\SQLiteAPIc\\SQLiteAPI\\api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\edu\\Documents\\GitHub\\SQLiteAPI\\api.csproj": {
+    "C:\\Users\\edu\\Documents\\GitHub\\SQLiteAPIc\\SQLiteAPI\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edu\\Documents\\GitHub\\SQLiteAPI\\api.csproj",
+        "projectUniqueName": "C:\\Users\\edu\\Documents\\GitHub\\SQLiteAPIc\\SQLiteAPI\\api.csproj",
         "projectName": "api",
-        "projectPath": "C:\\Users\\edu\\Documents\\GitHub\\SQLiteAPI\\api.csproj",
+        "projectPath": "C:\\Users\\edu\\Documents\\GitHub\\SQLiteAPIc\\SQLiteAPI\\api.csproj",
         "packagesPath": "C:\\Users\\edu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edu\\Documents\\GitHub\\SQLiteAPI\\obj\\",
+        "outputPath": "C:\\Users\\edu\\Documents\\GitHub\\SQLiteAPIc\\SQLiteAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\edu\\AppData\\Roaming\\NuGet\\NuGet.Config"
