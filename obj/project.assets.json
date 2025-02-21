@@ -335,7 +335,7 @@
     "C:\\Users\\edu\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "0.1.2",
+    "version": "0.1.3",
     "restore": {
       "projectUniqueName": "C:\\Users\\edu\\Documents\\GitHub\\SQLiteAPI\\SQLite API.csproj",
       "projectName": "SQLiteAPI",
