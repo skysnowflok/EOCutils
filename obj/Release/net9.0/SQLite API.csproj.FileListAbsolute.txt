@@ -1,0 +1,13 @@
+C:\Users\edu\Documents\GitHub\SQLiteAPI\bin\Release\net9.0\SQLite API.deps.json
+C:\Users\edu\Documents\GitHub\SQLiteAPI\bin\Release\net9.0\SQLite API.dll
+C:\Users\edu\Documents\GitHub\SQLiteAPI\bin\Release\net9.0\SQLite API.pdb
+C:\Users\edu\Documents\GitHub\SQLiteAPI\obj\Release\net9.0\SQLite API.csproj.AssemblyReference.cache
+C:\Users\edu\Documents\GitHub\SQLiteAPI\obj\Release\net9.0\SQLite API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edu\Documents\GitHub\SQLiteAPI\obj\Release\net9.0\SQLite API.AssemblyInfoInputs.cache
+C:\Users\edu\Documents\GitHub\SQLiteAPI\obj\Release\net9.0\SQLite API.AssemblyInfo.cs
+C:\Users\edu\Documents\GitHub\SQLiteAPI\obj\Release\net9.0\SQLite API.csproj.CoreCompileInputs.cache
+C:\Users\edu\Documents\GitHub\SQLiteAPI\obj\Release\net9.0\SQLite API.sourcelink.json
+C:\Users\edu\Documents\GitHub\SQLiteAPI\obj\Release\net9.0\SQLite API.dll
+C:\Users\edu\Documents\GitHub\SQLiteAPI\obj\Release\net9.0\refint\SQLite API.dll
+C:\Users\edu\Documents\GitHub\SQLiteAPI\obj\Release\net9.0\SQLite API.pdb
+C:\Users\edu\Documents\GitHub\SQLiteAPI\obj\Release\net9.0\ref\SQLite API.dll
