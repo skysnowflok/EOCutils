@@ -8,6 +8,7 @@ namespace SQLiteAPI.Interface
     {
         // In here is where all the magic happens, maybe I'll separate the methods to a different static class later.
         static string? query;
+        static string? GetValueResult;
 
 
         static public string[] DatabaseCommandHelp =
@@ -108,10 +109,10 @@ namespace SQLiteAPI.Interface
                     }
                     break;
                     case commandsDefinitions.TableCommands.GetValue:
-                    query = $"SELECT @Value FROM @Table WHERE Id=@Id";
+                    query = $"SELECT @Column FROM @Table WHERE Id=@Id";
                     using (SqliteCommand comm = new SqliteCommand(query, conn))
                     {
-                        comm.Parameters.AddWithValue("@Value", args[1]);
+                        comm.Parameters.AddWithValue("@Column", args[1]);
                         comm.Parameters.AddWithValue("@Table", args[2]);
                         comm.Parameters.AddWithValue("@Id", args[3]);
 
@@ -120,7 +121,7 @@ namespace SQLiteAPI.Interface
                         {
                             while (datareader.Read())
                             {
-                                string GetValueResult = datareader["Password"].ToString();
+                                GetValueResult = datareader["Password"].ToString();
                             }
                         }
 
