@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SQLiteAPI</id>
+    <version>0.1.1</version>
+    <authors>skysnowflok</authors>
+    <description>A simple af SQLite API</description>
+    <repository type="git" commit="861d34652f73cbd5cc19181f0ab47eacce154bd6" />
+    <dependencies>
+      <group targetFramework="net9.0">
+        <dependency id="Microsoft.Data.Sqlite" version="9.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\edu\Documents\GitHub\SQLiteAPI\bin\Release\net9.0\SQLite API.dll" target="lib\net9.0\SQLite API.dll" />
+  </files>
+</package>
