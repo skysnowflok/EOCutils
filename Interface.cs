@@ -82,11 +82,9 @@ namespace SQLiteAPI
                 {
                     case commandsDefinitions.TableCommands.Create:
                     
-                    query = $"CREATE TABLE @TableName (@TableSpecs)";
+                    query = $"CREATE TABLE {args[1]} ({args[2]})";
                     using (SqliteCommand comm = new SqliteCommand(query, conn))
                     {
-                        comm.Parameters.AddWithValue("@TableName", args[1]);
-                        comm.Parameters.AddWithValue("@TableSpecs", args[2]);
                         comm.ExecuteNonQuery();
                     }
                     break;
