@@ -75,86 +75,104 @@ namespace SQLiteAPI
 
         public static void TableCommand(params string[] args)
         {
+            if (args == null || args.Length == 0)
+            {
+                ShowHelp(TableCommandHelp);
+                return;
+            }
+
             using (SqliteConnection conn = new SqliteConnection(connectionString))
             {
                 conn.Open();
                 switch (args[0])
                 {
                     case commandsDefinitions.TableCommands.Create:
-                    
-                    query = $"CREATE TABLE {args[1]} ({args[2]})";
-                    using (SqliteCommand comm = new SqliteCommand(query, conn))
-                    {
-                        comm.ExecuteNonQuery();
-                    }
-                    break;
-                    case commandsDefinitions.TableCommands.Destroy:
-                    query = $"DROP TABLE @Table";
-                    using (SqliteCommand comm = new SqliteCommand(query, conn))
-                    {
-                        comm.Parameters.AddWithValue("@Table", args[1]);
-                        comm.ExecuteNonQuery();
-                    }
-                    break;
-                    case commandsDefinitions.TableCommands.AddValue:
-                    query = $"INSERT INTO @Table (@Fields) VALUES ('@Value')";
-                    using (SqliteCommand comm = new SqliteCommand(query, conn))
-                    {
-                            comm.Parameters.AddWithValue("@Table", args[1]);
-                            comm.Parameters.AddWithValue("@Fields", args[2]);
-                            comm.Parameters.AddWithValue("@Values", args[3]);
+                        if (args.Length < 3)
+                        {
+                            throw new ArgumentException("Table creation requires table name and specifications.");
+                        }
+                        query = $"CREATE TABLE {args[1]} ({args[2]})";
+                        using (SqliteCommand comm = new SqliteCommand(query, conn))
+                        {
                             comm.ExecuteNonQuery();
-                    }
-                    break;
+                        }
+                        break;
+
+                    case commandsDefinitions.TableCommands.Destroy:
+                        if (args.Length < 2)
+                        {
+                            throw new ArgumentException("Table destruction requires table name.");
+                        }
+                        query = $"DROP TABLE {args[1]}";
+                        using (SqliteCommand comm = new SqliteCommand(query, conn))
+                        {
+                            comm.ExecuteNonQuery();
+                        }
+                        break;
+
+                    case commandsDefinitions.TableCommands.AddValue:
+                        if (args.Length < 4)
+                        {
+                            throw new ArgumentException("Adding a value requires table name, column, and value.");
+                        }
+                        query = $"INSERT INTO {args[1]} ({args[2]}) VALUES (@Value)";
+                        using (SqliteCommand comm = new SqliteCommand(query, conn))
+                        {
+                            comm.Parameters.AddWithValue("@Value", args[3]);
+                            comm.ExecuteNonQuery();
+                        }
+                        break;
+
                     case commandsDefinitions.TableCommands.GetValue:
-                    query = $"SELECT @Column FROM @Table WHERE Id=@Id";
-                    using (SqliteCommand comm = new SqliteCommand(query, conn))
-                    {
-                        comm.Parameters.AddWithValue("@Column", args[1]);
-                        comm.Parameters.AddWithValue("@Table", args[2]);
-                        comm.Parameters.AddWithValue("@Id", args[3]);
-
-
-                        using (SqliteDataReader datareader = comm.ExecuteReader())
+                        if (args.Length < 4)
                         {
-                            while (datareader.Read())
-                            {
-                                GetValueResult = datareader["Password"].ToString();
-                            }
+                            throw new ArgumentException("Getting a value requires column, table name, and ID.");
                         }
-
-                    }
-                    break;
-                    case commandsDefinitions.TableCommands.View:
-                    query = $"SELECT * FROM {args[1]}";
-                    using (SqliteCommand comm = new SqliteCommand(query, conn))
-                    {
-                        comm.Parameters.AddWithValue("@Table", args[1]);
-                        using (SqliteDataReader datareader = comm.ExecuteReader()) 
+                        query = $"SELECT {args[1]} FROM {args[2]} WHERE Id = @Id";
+                        using (SqliteCommand comm = new SqliteCommand(query, conn))
                         {
-                            System.Console.WriteLine("Habits");
-                            System.Console.WriteLine("------------");
-
-                            while (datareader.Read()) 
+                            comm.Parameters.AddWithValue("@Id", args[3]);
+                            using (SqliteDataReader datareader = comm.ExecuteReader())
                             {
-                                foreach (string field in datareader)
+                                while (datareader.Read())
                                 {
-                                    System.Console.WriteLine($"{field}");
+                                    GetValueResult = datareader[args[1]].ToString();
                                 }
-                                
                             }
-                            Console.ReadKey();
                         }
-                    }
-                    break;
-                    default:
-                    ShowHelp(TableCommandHelp);
-                    break;
-                    
-                }
-                
-            }
-        }
+                        break;
 
+                    case commandsDefinitions.TableCommands.View:
+                        if (args.Length < 2)
+                        {
+                            throw new ArgumentException("Viewing a table requires table name.");
+                        }
+                        query = $"SELECT * FROM {args[1]}";
+                        using (SqliteCommand comm = new SqliteCommand(query, conn))
+                        {
+                            using (SqliteDataReader datareader = comm.ExecuteReader())
+                            {
+                                System.Console.WriteLine("Habits");
+                                System.Console.WriteLine("------------");
+
+                                while (datareader.Read())
+                                {
+                                    for (int i = 0; i < datareader.FieldCount; i++)
+                                    {
+                                        System.Console.WriteLine($"{datareader.GetName(i)}: {datareader.GetValue(i)}");
+                                    }
+                                }
+                                Console.ReadKey();
+                            }
+                        }
+                        break;
+
+                    default:
+                        ShowHelp(TableCommandHelp);
+                        break;
+                }
+            }
+        }    
     }
+
 }

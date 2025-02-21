@@ -13,11 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("skysnowflok")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("A simple af SQLite API")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("0.1.3.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.3+e8bad99775c4063a617f47d86ddb40c066a56722")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("0.2.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.2.0+310104b2146b8211bc903b7163f8fc45bdd1eb99")]
 [assembly: System.Reflection.AssemblyProductAttribute("SQLite API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SQLite API")]
-[assembly: System.Reflection.AssemblyVersionAttribute("0.1.3.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("0.2.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
 
