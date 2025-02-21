@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <PackageId>SQLiteAPI</PackageId>
-    <Version>0.1.1</Version>
+    <Version>0.1.2</Version>
     <Authors>skysnowflok</Authors>
     <Description>A simple af SQLite API</Description>
     <ImplicitUsings>enable</ImplicitUsings>
