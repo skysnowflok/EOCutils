@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("A simple af SQLite API")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.1.2.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.2+4edb4c5c65a13de571731158aff8d45b669c0253")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.2+368e2f2bb7148bc455ea7cc65176fdb6cc850b4f")]
 [assembly: System.Reflection.AssemblyProductAttribute("SQLite API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SQLite API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.1.2.0")]

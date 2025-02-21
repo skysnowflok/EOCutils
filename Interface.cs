@@ -2,7 +2,7 @@
 using System.Text;
 using Microsoft.Data.Sqlite;
 
-namespace SQLiteAPI.Interface
+namespace SQLiteAPI
 {
     static public class Interface 
     {

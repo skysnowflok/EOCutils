@@ -5,7 +5,7 @@
     <version>0.1.2</version>
     <authors>skysnowflok</authors>
     <description>A simple af SQLite API</description>
-    <repository type="git" commit="4edb4c5c65a13de571731158aff8d45b669c0253" />
+    <repository type="git" commit="368e2f2bb7148bc455ea7cc65176fdb6cc850b4f" />
     <dependencies>
       <group targetFramework="net9.0">
         <dependency id="Microsoft.Data.Sqlite" version="9.0.2" exclude="Build,Analyzers" />
