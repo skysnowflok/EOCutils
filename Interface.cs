@@ -7,8 +7,8 @@ namespace SQLiteAPI.Interface
     static public class Interface 
     {
         // In here is where all the magic happens, maybe I'll separate the methods to a different static class later.
-        static string? query;
-        static string? GetValueResult;
+        private static string? query;
+        public static string? GetValueResult;
 
 
         static public string[] DatabaseCommandHelp =
