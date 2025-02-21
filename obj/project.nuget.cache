@@ -1,16 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QJOGJ0J9rY4=",
+  "dgSpecHash": "QE7w1GYWS8Q=",
   "success": true,
-  "projectFilePath": "C:\\Users\\edu\\Documents\\GitHub\\SQLiteAPIc\\SQLiteAPI\\api.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\edu\\.nuget\\packages\\microsoft.data.sqlite\\9.0.2\\microsoft.data.sqlite.9.0.2.nupkg.sha512",
-    "C:\\Users\\edu\\.nuget\\packages\\microsoft.data.sqlite.core\\9.0.2\\microsoft.data.sqlite.core.9.0.2.nupkg.sha512",
-    "C:\\Users\\edu\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.10\\sqlitepclraw.bundle_e_sqlite3.2.1.10.nupkg.sha512",
-    "C:\\Users\\edu\\.nuget\\packages\\sqlitepclraw.core\\2.1.10\\sqlitepclraw.core.2.1.10.nupkg.sha512",
-    "C:\\Users\\edu\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.10\\sqlitepclraw.lib.e_sqlite3.2.1.10.nupkg.sha512",
-    "C:\\Users\\edu\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.10\\sqlitepclraw.provider.e_sqlite3.2.1.10.nupkg.sha512",
-    "C:\\Users\\edu\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\edu\\Desktop\\liv\\liv.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

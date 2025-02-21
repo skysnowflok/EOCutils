@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Text;
 using Microsoft.Data.Sqlite;
 
@@ -26,38 +26,6 @@ namespace SQLiteAPI.Interface
         static string? connectionString;
         static string? selectedDatabase; 
 
-        
-
-        public static void Main(string[] args)
-        {
-            if (args.Length == 0) 
-            {
-                System.Console.WriteLine("Insira um commando.");
-            }
-
-            if (!File.Exists("selectedDatabase.txt"))
-            {
-                System.Console.WriteLine("Select a database");
-                return;
-            }
-
-            selectedDatabase = File.ReadAllText("selectedDatabase.txt");
-            connectionString = $"Data Source={selectedDatabase}.db;";
-
-            string[] argsCommand = args.Skip(1).ToArray();
-
-
-            switch (args[0])
-            {
-                case "Database":
-                DatabaseCommand(argsCommand);
-                break;
-                case "Table":
-                TableCommand(argsCommand);
-                break;
-            }
-            
-        }
 
         public static void ShowHelp(string[] commandList) 
         {
