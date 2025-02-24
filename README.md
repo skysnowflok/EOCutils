@@ -16,7 +16,7 @@ SQLiteAPI é uma biblioteca C# que fornece uma interface CLI para interagir com 
 Para instalar a biblioteca, insira o comando no terminal:
 
 ```sh
-dotnet add package SQLiteAPI --version 0.1.0
+dotnet add package SQLiteAPI --version 1.0.0
 ```
 
 ## Contribuição
