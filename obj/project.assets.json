@@ -335,10 +335,10 @@
     "C:\\Users\\edu\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\edu\\Documents\\GitHub\\SQLiteAPI\\SQLite API.csproj",
-      "projectName": "SQLiteAPI",
+      "projectName": "EOCutils",
       "projectPath": "C:\\Users\\edu\\Documents\\GitHub\\SQLiteAPI\\SQLite API.csproj",
       "packagesPath": "C:\\Users\\edu\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\edu\\Documents\\GitHub\\SQLiteAPI\\obj\\",
