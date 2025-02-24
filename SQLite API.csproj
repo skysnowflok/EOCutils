@@ -3,9 +3,9 @@
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <PackageId>EOCutils</PackageId>
-    <Version>1.1.0</Version>
+    <Version>0.1.0</Version>
     <Authors>skysnowflok</Authors>
-    <Description>A simple af SQLite API</Description>
+    <Description>Uma coletania de ferramentas uteis para aplicativos de console.</Description>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>

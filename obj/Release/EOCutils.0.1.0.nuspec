@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>EOCutils</id>
+    <version>0.1.0</version>
+    <authors>skysnowflok</authors>
+    <description>Uma coletania de ferramentas uteis para aplicativos de console.</description>
+    <repository type="git" commit="44f8415d00be022cfaad1e55a1a7c8de6387f0ee" />
+    <dependencies>
+      <group targetFramework="net9.0">
+        <dependency id="Microsoft.Data.Sqlite" version="9.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\edu\Documents\GitHub\SQLiteAPI\bin\Release\net9.0\SQLite API.dll" target="lib\net9.0\SQLite API.dll" />
+  </files>
+</package>
