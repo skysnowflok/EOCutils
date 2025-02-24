@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Uma coletania de ferramentas uteis para aplicativos de console.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.1.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.0+44f8415d00be022cfaad1e55a1a7c8de6387f0ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.0+b13f561da211e8f3b50bd49b432eb948010acb7b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SQLite API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SQLite API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.1.0.0")]
