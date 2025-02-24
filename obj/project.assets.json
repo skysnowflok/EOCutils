@@ -335,13 +335,13 @@
     "C:\\Users\\edu\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "0.1.3",
+    "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\edu\\Documents\\GitHub\\SQLiteAPI\\EOCutils.csproj",
+      "projectUniqueName": "C:\\Users\\edu\\Documents\\GitHub\\EOCutils\\EOCutils.csproj",
       "projectName": "EOCutils",
-      "projectPath": "C:\\Users\\edu\\Documents\\GitHub\\SQLiteAPI\\EOCutils.csproj",
+      "projectPath": "C:\\Users\\edu\\Documents\\GitHub\\EOCutils\\EOCutils.csproj",
       "packagesPath": "C:\\Users\\edu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\edu\\Documents\\GitHub\\SQLiteAPI\\obj\\",
+      "outputPath": "C:\\Users\\edu\\Documents\\GitHub\\EOCutils\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\edu\\AppData\\Roaming\\NuGet\\NuGet.Config"

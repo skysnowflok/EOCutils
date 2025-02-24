@@ -2,10 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
-    <PackageId>EOCutils</PackageId>
-    <Version>0.1.3</Version>
-    <Authors>skysnowflok</Authors>
-    <Description>Uma coletania de ferramentas uteis para aplicativos de console.</Description>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>

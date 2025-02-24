@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4bnxnhc8Tnc=",
+  "dgSpecHash": "sjp4/X41meg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\edu\\Documents\\GitHub\\SQLiteAPI\\EOCutils.csproj",
+  "projectFilePath": "C:\\Users\\edu\\Documents\\GitHub\\EOCutils\\EOCutils.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\edu\\.nuget\\packages\\microsoft.data.sqlite\\9.0.2\\microsoft.data.sqlite.9.0.2.nupkg.sha512",
     "C:\\Users\\edu\\.nuget\\packages\\microsoft.data.sqlite.core\\9.0.2\\microsoft.data.sqlite.core.9.0.2.nupkg.sha512",

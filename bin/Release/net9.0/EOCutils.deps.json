@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v9.0": {
-      "EOCutils/0.1.3": {
+      "EOCutils/1.0.0": {
         "dependencies": {
           "Microsoft.Data.Sqlite": "9.0.2"
         },
@@ -179,7 +179,7 @@
     }
   },
   "libraries": {
-    "EOCutils/0.1.3": {
+    "EOCutils/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

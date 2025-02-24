@@ -10,14 +10,13 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("skysnowflok")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("EOCutils")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
-[assembly: System.Reflection.AssemblyDescriptionAttribute("Uma coletania de ferramentas uteis para aplicativos de console.")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("0.1.3.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.3+bc99252ba61f723b7d782d3b3ba3cff2b44680a4")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df6ed4ecfbb7b251f6dc337449cf28800ab47c6a")]
 [assembly: System.Reflection.AssemblyProductAttribute("EOCutils")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EOCutils")]
-[assembly: System.Reflection.AssemblyVersionAttribute("0.1.3.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
 

@@ -1,12 +1,6 @@
-﻿using System.Collections;
-using System.Linq.Expressions;
-using System.Text;
-using Microsoft.Data.Sqlite;
+﻿using Microsoft.Data.Sqlite;
 
-
-namespace Commands
-{
-    static public class DatabaseCommands
+static public class DatabaseCommands
     {
         // In here is where all the magic happens, maybe I'll separate the methods to a different static class later.
         
@@ -60,7 +54,7 @@ namespace Commands
 
             
     }
-    static public class TableCommands 
+static public class TableCommands 
     {
         public static string? GetValueResult;
         private static string query;
@@ -175,7 +169,4 @@ namespace Commands
         }
         
     }
-
-}
-
 
